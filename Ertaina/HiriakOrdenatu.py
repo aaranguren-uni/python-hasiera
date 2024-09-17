@@ -6,10 +6,12 @@ def hiriakOrdenatu(hizt):
             zerrenda.append(key)
 
     return zerrenda
-
-hiztegia=dict(Bilbo=250000,
+def main():
+    hiztegia=dict(Bilbo=250000,
               Roma=50000000,
               Avila=60000,
               Bartzelona=1000000)
-hiriHandiak=hiriakOrdenatu(hiztegia)
-print(" ".join(hiriHandiak))
+    hiriHandiak=hiriakOrdenatu(hiztegia)
+    print(" ".join(hiriHandiak))
+
+main()
